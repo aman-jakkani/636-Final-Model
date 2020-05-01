@@ -16,7 +16,6 @@ from skimage.transform import resize
 import json
 import cv2
 import os
-import glob
 
 d = os.path.dirname(os.getcwd())
 model = load_model(d+'/bedmodel.h5')
